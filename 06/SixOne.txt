@@ -1,0 +1,25 @@
+a)
+Det -> 'the'
+A0 -> 'black'
+N0 -> 'cat' | 'dog' | 'shed'
+Finite-Verb -> 'chases'
+P0 -> 'into'
+
+b)
+The black cat chases the dog into the shed
+Det black cat chases the dog into the shed
+Det A0 cat chases the dog into the shed
+Det A0 N0 chases the dog into the shed
+Det A0 N0 Finite-Verb the dog into the shed
+Det A0 N0 Finite-Verb Det dog into the shed
+Det A0 N0 Finite-Verb Det N0 into the shed
+Det A0 N0 Finite-Verb Det N0 P0 the shed
+Det A0 N0 Finite-Verb Det N0 P0 Det shed
+Det A0 N0 Finite-Verb Det N0 P0 Det N0
+NP Finite-Verb Det N0 P0 Det N0
+NP Finite-Verb Det N0 P0 NP
+NP Finite-Verb Det N0 PP
+NP Finite-Verb NP PP
+NP V1 PP
+NP VP
+S
